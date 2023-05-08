@@ -14,6 +14,8 @@ function calculateBMI() {
   let bmi = weight/(heightInMeter*heightInMeter);
   alert("Your bmi is: " + bmi);
 
+ 
+
   switch(true){
     case bmi<18.5:
       alert("Your bmi is: " + bmi + " underweight.")
@@ -30,5 +32,23 @@ function calculateBMI() {
           break;
     
   }
+
+  if ((age >=19 || age <=25)&&(bmi>=19 || bmi>= 24)){
+    alert("Healthy");
+  } else if ((age >=25 || age <=34)&&(bmi>=20 || bmi>= 25)){
+    alert("Healthy");
+  }else if ((age >=35 || age <=44)&&(bmi>=21 || bmi>= 26)){
+    alert("Healthy");
+  }else if ((age >=45 || age <=54)&&(bmi>=22 || bmi>= 27)){
+    alert("Healthy");
+  }else if ((age >=55 || age <=64)&&(bmi>=23 || bmi>= 28)){
+    alert("Healthy");
+  }else if ((age >65)&&(bmi>=24 || bmi>= 29)){
+    alert("Healthy");
+  }else{
+    alert("Unhealthy");
+  }
+
+  
 
 }
