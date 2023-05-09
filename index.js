@@ -9,8 +9,7 @@ function calculateBMI() {
 
   // You are going to write the code here before the curly braces 👇🏻
 
-  // the equation for BMI is (weight (kg) / height^2(m)), dont forget to convert cm to m
-  let heightInMeter = height/100;
+  
   let bmi = weight/(heightInMeter*heightInMeter);
   alert("BMI of: " + bmi);
 
