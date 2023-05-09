@@ -17,17 +17,17 @@ function calculateBMI() {
  
 
   switch(true){
-    case bmi<18.5:
+    case bmi<=18.5:
       alert("Which means that you are in: " + /*bmi +*/ " underweight.")
       break;
 
-    case bmi>18.5 && bmi <24.9:
+    case bmi>=18.5 && bmi <=24.9:
       alert("Which means that you are in: " + /*bmi +*/ " Healthy Weight")
       break;
-    case bmi>25 && bmi <29.9:
+    case bmi>=25 && bmi <=29.9:
         alert("Which means that you are in: " + /*bmi +*/ " Overweight")
         break;
-    case bmi>30:
+    case bmi>=30:
           alert("Which means that you are in: " + /*bmi +*/ " Obesity")
           break;
     
