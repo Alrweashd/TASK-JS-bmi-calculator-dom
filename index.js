@@ -31,6 +31,7 @@ function calculateBMI() {
           break;
     
   }
+  // changing
 
   // if ((age >=19 && age <=25)&&(bmi>=19 && bmi<= 24)){
   //   alert("Healthy");
